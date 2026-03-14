@@ -40,7 +40,7 @@ public class StepDefinition20 extends BaseClass {
 
 	@Given("user enters the username as {string}")
 	public void user_enters_the_username_as(String username) {
-		
+		System.out.println("user is on the login page");
 		obj.enterUserName(username);
 		
 	   
