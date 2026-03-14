@@ -179,7 +179,7 @@ public class StepDefinition20 extends BaseClass {
 	public void user_captures_the_customer_id() {
 		
 		String customerID=obj1.getCustomerID();
-		
+		System.out.println("We are generating Customer ID");
 		System.out.println("The customer ID generated is   "+customerID);
 	   
 	}
