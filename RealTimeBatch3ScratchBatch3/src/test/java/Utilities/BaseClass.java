@@ -28,7 +28,7 @@ public class BaseClass {
 		opt.addArguments("--disable-password-generation");
 		opt.addArguments("--disable-features=PasswordLeakDetection");
 		opt.addArguments("--incognito");
-		opt.addArguments("--headless=new");
+		//opt.addArguments("--headless=new");
 		String URL=FetchDataFromProperty.getDataFromProperty().getProperty("url");
 		String browserName=FetchDataFromProperty.getDataFromProperty().getProperty("browser");
 		if(browserName.equalsIgnoreCase("chrome"))
