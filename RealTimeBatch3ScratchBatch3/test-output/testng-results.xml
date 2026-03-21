@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="2" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test started]]>
+    </line>
+    <line>
+      <![CDATA[Test started]]>
+    </line>
+    <line>
+      <![CDATA[Test case  failed]]>
+    </line>
+    <line>
+      <![CDATA[Test started]]>
+    </line>
+    <line>
+      <![CDATA[Test case passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case  failed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-03-21T20:45:55 IST" name="Suite" finished-at="2026-03-21T20:49:00 IST" duration-ms="185146">
+    <groups>
+      <group name="sanity1">
+        <method signature="LoginTest.executeLogin()[pri:0, instance:TestClass.LoginTest@6e0f5f7f]" name="executeLogin" class="TestClass.LoginTest"/>
+      </group> <!-- sanity1 -->
+      <group name="sanity2">
+        <method signature="LogOutTest.logOut()[pri:0, instance:TestClass.LogOutTest@4efac082]" name="logOut" class="TestClass.LogOutTest"/>
+      </group> <!-- sanity2 -->
+    </groups>
+    <test started-at="2026-03-21T20:45:55 IST" name="Test" finished-at="2026-03-21T20:49:00 IST" duration-ms="185146">
+      <class name="TestClass.LoginTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestClass.LoginTest@6e0f5f7f]" started-at="2026-03-21T20:45:55 IST" name="launchBrowser" finished-at="2026-03-21T20:46:00 IST" duration-ms="4905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- TestClass.LoginTest -->
+      <class name="TestClass.LogOutTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestClass.LogOutTest@4efac082]" started-at="2026-03-21T20:45:55 IST" name="launchBrowser" finished-at="2026-03-21T20:46:00 IST" duration-ms="4904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method retried="true" signature="logOut()[pri:0, instance:TestClass.LogOutTest@4efac082]" started-at="2026-03-21T20:46:00 IST" name="logOut" finished-at="2026-03-21T20:46:00 IST" duration-ms="161" status="SKIP">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=146.0.7680.153)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [149c07366e0465fadd812ffdf20539a6, clickElement {id=f.09BDB69AC33AE4018568AA95C1A151F0.d.186FD87384A7D1B036754D81BCBD7A25.e.15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.153, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\saura\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55316}, goog:processID: 31192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55316/devtoo..., se:cdpVersion: 146.0.7680.153, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (149c07366e0465fadd812ffdf20539a6)] -> xpath: //*[text()='Login']]
+Session ID: 149c07366e0465fadd812ffdf20539a6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=146.0.7680.153)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [149c07366e0465fadd812ffdf20539a6, clickElement {id=f.09BDB69AC33AE4018568AA95C1A151F0.d.186FD87384A7D1B036754D81BCBD7A25.e.15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.153, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\saura\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55316}, goog:processID: 31192, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55316/devtoo..., se:cdpVersion: 146.0.7680.153, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (149c07366e0465fadd812ffdf20539a6)] -> xpath: //*[text()='Login']]
+Session ID: 149c07366e0465fadd812ffdf20539a6
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at TestClass.LoginTest.executeLogin(LoginTest.java:17)
+at TestClass.LogOutTest.logOut(LogOutTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:TestClass.LogOutTest@4efac082]" started-at="2026-03-21T20:46:00 IST" name="closeWindow" finished-at="2026-03-21T20:46:00 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestClass.LogOutTest@4efac082]" started-at="2026-03-21T20:46:00 IST" name="launchBrowser" finished-at="2026-03-21T20:46:03 IST" duration-ms="3220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="logOut()[pri:0, instance:TestClass.LogOutTest@4efac082]" started-at="2026-03-21T20:46:03 IST" name="logOut" finished-at="2026-03-21T20:46:10 IST" duration-ms="6791" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started]]>
+            </line>
+            <line>
+              <![CDATA[Test case passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:TestClass.LogOutTest@4efac082]" started-at="2026-03-21T20:46:10 IST" name="closeWindow" finished-at="2026-03-21T20:46:10 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- TestClass.LogOutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
