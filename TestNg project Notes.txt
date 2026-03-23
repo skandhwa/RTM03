@@ -1,0 +1,56 @@
+About Project 
+-----------------------------------
+
+I am currently working in a healthcare project where I am working both as an manual and automation test analyst/lead/engineer
+The name of our project is Anthem Corporation which is one of the leading healthcare organization in USA 
+
+
+Automation Framework 
+--------------------------------------------------
+
+Our Automation framework is based on testNg , where we are following a page object model 
+
+We have created separate page class for each of the web page in the application .
+
+
+Folder Structure
+--------------------------------
+We are using a maven project which majorly consist of two folders src/test and src/main
+src/main basically consist of all configuration related files 
+constant data , properties file , test data everything is a part of src main 
+
+
+src/test contains all the files related to testing 
+
+We have test classes , page classes, utilities ,as a part of this package 
+
+Now Utilities again consist of all the reusable classes which we are going to use throughout the project 
+
+We have created utilities like Fetching Data from Excel , from Property files , We also have Base class which contains all the methods related to driver initialization and reusable methods where driver is used 
+
+
+We are generating reports and screenshots which are added as  a part of target folder 
+
+
+We also have a testNg.xml file which we used to perform selective execution and acts as a settings for executing the project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
