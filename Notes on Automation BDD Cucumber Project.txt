@@ -12,6 +12,17 @@ We have a scrum team where there are 4 tester and all of them work in both manua
 
 My day to day task is to write test cases for all the user stories assigned to be completed in the sprint and also to complete automation testing for those. 
 
+Test Cases for My Module
+-------------------------------------------------
+1. Data for new customer comes from an SAP module whcih we have to feed into our application .
+2. We write test cases for these functionality including the customer data 
+3. We also validate the Fund Transfer , New Account creation for customer and validate the payment has been made
+4. After addition of new customer we also validate new customer has been added successfully or not .
+
+
+
+
+
 Project Framework Explaination
 -------------------------------------
 We are using maven as a build tool for our automation framework .
